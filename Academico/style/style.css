@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://maracanet.com/wp-content/uploads/2017/11/ifce.jpg); /*mudar imagem*/
+    background-size: 100%;              
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+/* Parte transparente da página */
+.mainDiv {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 350px;
+    width: 320px;
+    border-radius: 16px;
+    justify-items: center;
+    padding: 40px;
+}
+
+/* */
+input {
+    background-color:  rgba(0, 0, 0, 0.234);;
+    height: 30px;
+    width: 300px;
+    margin: 7px;
+    border-radius: 5px;
+}
+input::placeholder {
+    color: white;
+  }
+
+button {
+    height: 30px;
+    width: 90px;
+    background-color: #08743B;
+    color: white;
+    margin: 10px;
+}
+
+a {
+    margin-left: 50px;
+    color: #08743B;
+}
