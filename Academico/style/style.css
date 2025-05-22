@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.continuar {
+    position: absolute;
+    background-color: #28a745;
+    border-radius: 8px;
+    cursor: pointer;
+}
 body {
     background-image: url(https://maracanet.com/wp-content/uploads/2017/11/ifce.jpg); /*mudar imagem*/
     background-size: 100%;              
@@ -10,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px)  brightness(50%);
 }
 /* Parte transparente da página */
 .mainDiv {
@@ -35,14 +41,52 @@ input::placeholder {
   }
 
 button {
-    height: 30px;
-    width: 90px;
+    height: 40px;
+    width: 100px;
     background-color: #08743B;
     color: white;
     margin: 10px;
+}
+.BigButton {
+    height: 45px;
+    width: 135px;
+    margin: 17px;
 }
 
 a {
     margin-left: 50px;
     color: #08743B;
+}
+
+/*input quadrado */
+input[type="radio"] { 
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    background-color: white;
+    cursor: pointer;
+}
+
+/*variaveis genericas e herança*/
+
+input[type="radio"]:checked {
+    background-color: #333;
+  }
+
+
+  .fechar {
+    position: absolute;
+    background-color: #28a745;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+button:hover {
+  background-color: #218838;
+}
+
+
+.continuar:hover {
+    background-color: #218838;
 }
