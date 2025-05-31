@@ -1,0 +1,53 @@
+* {
+        box-sizing: border-box;
+}
+
+.autenticacao {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px; 
+    width: 380px; 
+    height: 410px;
+    justify-items: center;
+}
+.headerifce {
+    text-align: center;
+    margin-bottom: 5px; 
+}
+
+.logoifce {
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.titulos {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.tituloaut {
+    text-align: center;
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 2px; 
+}
+
+.subtitulo {
+    text-align: center;
+    margin-bottom: 0.8rem; 
+    color: #333;
+    font-size: 18px;
+}
+
+
+.campos input:focus {
+    outline: none;
+    border-color: #0056b3;
+}
+
+.botaologin:hover {
+    background-color: #247a2d;
+}
+
+

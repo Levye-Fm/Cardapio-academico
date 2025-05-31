@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    flex-direction: column;
+}
+
+.continuar {
+    position: absolute;
+    bottom: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 80px;
+    color: white;
+}
+
+
+.saldo-box {
+    background-color: white;
+    border-radius: 15px;
+    width: 400px;
+    height: 150px;
+    margin: 125px;
+    padding: 10px;
+}
+
+h4 {
+    font-size: 20px;
+
+}
+    
+img {
+    width: 65px;
+}
+strong {
+    font-size: 2rem;
+}

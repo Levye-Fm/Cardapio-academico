@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container-cardapio">
+        <header class="header-cardapio">
+            <div class="logo-saldo">
+                <img src="../../imgs/IFce/ifcemaracanau2.png" alt="IFCE Maracanaú" class="logo-cardapio">
+                <div class="saldo-cardapio">
+                    <i class="fas fa-wallet"></i>
+                    <span>R$ 2,50</span>
+                </div>
+            </div>
+            <h1>Cardápio do Restaurante Acadêmico</h1>
+        </header>
+
+        <main class="conteudo-cardapio">
+            <section class="cardapio-dia">
+                <h2>Cardápio do Dia:</h2>
+                <div class="data-refeicao">
+                    <h3>Terça Feira, 25 de abril</h3>
+                    <ul class="itens-cardapio">
+                        <li>Strogonoff de Carne</li>
+                        <li>Arroz</li>
+                        <li>Baião de Dois</li>
+                        <li>Salada de Legumes</li>
+                    </ul>
+                </div>
+            </section>
+
+            <div class="divisor"></div>
+
+            <section class="cardapio-semana">
+                <h2>Cardápio da Semana:</h2>
+                <table class="tabela-cardapio">
+                    <tr>
+                        <td>Segunda Feira</td>
+                        <td>Peito de Frango Grelhado</td>
+                    </tr>
+                    <tr>
+                        <td>Terça Feira</td>
+                        <td>Strogonoff de Carne</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta-Feira</td>
+                        <td>Lasanha de Carne</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta-Feira</td>
+                        <td>Delícia de Peixe</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta Feira</td>
+                        <td>Charque e Pinga</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer class="footer-cardapio">
+            <button class="fechar"  onclick="transferir(2)">
+                <i class="fas fa-arrow-left" ></i> Voltar
+            </button>
+        </footer>
+    </div>
+    <script src="../../script/change.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
+
+.painel {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.headermenu {
+    background-color: #2e9337;
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+
+.perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fotoperfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+.saldopainel {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.saldoicone {
+    margin-right: 5px;
+    font-size: 0.9rem;
+}
+
+.saldotexto {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.logopainel {
+    text-align: center;
+}
+
+.logomenu {
+    max-width: 120px;
+    margin-bottom: 5px;
+}
+
+.titulomenu {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.menupainel {
+    padding: 20px;
+}
+
+.menuopcoes ul {
+    list-style: none;
+}
+
+.menuitem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menuitem:hover {
+    background-color: #e9e9e9;
+    transform: translateX(5px);
+}
+
+.menuicone {
+    width: 25px;
+    text-align: center;
+    margin-right: 15px;
+    color: #2e9337;
+    font-size: 1.1rem;
+}
+
+.saldoinfo {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f0f8f0;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #d0e8d0;
+}
+
+.saldoinfo h3 {
+    color: #2e9337;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.valorsaldo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #247a2d;
+}

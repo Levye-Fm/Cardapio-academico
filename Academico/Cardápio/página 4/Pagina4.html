@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recarga/Saldo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../style/style.css">
+</head>
+<body>
+    <button class="fechar" type="button" onclick="transferir(2)"> <h3>X</h3></button>
+
+    <div class="container">
+        <div class="saldo-cartao">
+            <div class="saldo-info">
+                <div class="icone">
+                    <img src="../../imgs/Icones/carteira.png" alt="Carteira">
+                </div>
+                <div>
+                    <p>Seu saldo:</p>
+                    <h2>R$ 2,50 Reais</h2>
+                </div>
+            </div>
+        </div>
+        <div class="form-cartao">
+            <h1>Recarregar</h1>
+            <hr>
+            <p>Selecione a forma de pagamento</p>
+            <div class="pagamento">
+                <label>
+                    <img src="../../imgs/Icones/pix.png" alt="Pix">
+                    <input type="radio" name="payment" value="pix"> Pix
+                </label>
+                <label>
+                    <img src="../../imgs/Icones/cartao.jpg" alt="Cartão de Débito">
+                    <input type="radio" name="payment" value="debit"> Cartão de Débito
+                </label>
+            </div>
+            <form>
+                <input type="text" placeholder="Informe a sua matrícula" required>
+                <input type="email" placeholder="Email" required> <br>
+                <button type="button" class="continuar" onclick="transferir(5)" style=" height: 40px;
+                width: 100px;
+                background-color: #08743B;
+                color: white;
+                margin: 10px; position: relative;" >Continuar</button>
+            </form>
+        </div>
+    </div>
+    <script src="../../script/change.js"></script>
+</body>
+</html>

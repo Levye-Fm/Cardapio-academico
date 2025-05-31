@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+.continuar {
+    position: absolute;
+    background-color: #28a745;
+    border-radius: 8px;
+    cursor: pointer;
+}
+body {
+    background-image: url(https://maracanet.com/wp-content/uploads/2017/11/ifce.jpg); /*mudar imagem*/
+    background-size: 100%;              
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px)  brightness(50%);
+}
+/* Parte transparente da página */
+.mainDiv {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 350px;
+    width: 320px;
+    border-radius: 16px;
+    justify-items: center;
+    padding: 40px;
+}
+
+/* */
+input {
+    background-color:  rgba(0, 0, 0, 0.234);;
+    height: 30px;
+    width: 300px;
+    margin: 7px;
+    border-radius: 5px;
+}
+input::placeholder {
+    color: white;
+  }
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #2e9337;
+    color: white;
+    margin: 10px;
+}
+.BigButton {
+    height: 45px;
+    width: 135px;
+    margin: 17px;
+}
+
+a {
+    color: #2e9337;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+/*input quadrado */
+input[type="radio"] { 
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    background-color: white;
+    cursor: pointer;
+}
+
+/*variaveis genericas e herança*/
+
+input[type="radio"]:checked {
+    background-color: #797979;
+  }
+
+
+  .fechar {
+    position: absolute;
+    background-color: #28a745;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+button:hover {
+  background-color: #218838;
+}
+
+
+.continuar:hover {
+    background-color: #218838;
+}
